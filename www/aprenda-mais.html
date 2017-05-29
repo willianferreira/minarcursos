@@ -43,10 +43,11 @@
                 var id = field.id;
                 var titulo = field.titulo;
                 var descricao = field.descricao;
+                var categoria = field.categoria;
 
                 $("#listview").append(
                 	"<a class='titulo list-group-item' href='aprenda-mais-descricao.html?id=" 
-                	+ id + "&titulo=" + titulo + "&descricao=" + descricao + "'><i class='fa fa-lightbulb-o'></i> " +"  "+ titulo);
+                	+ id + "&titulo=" + titulo + "&descricao='> "+"<div style='color:#dc0a0a; text-transform:uppercase;'>"+categoria+"</div>" +"  "+ titulo);
 
                 $('#preloader').fadeOut(1500);
                 
@@ -67,7 +68,7 @@
     margin-left:-50px;
     z-index: 999;
 	}
-	.titulo { font-size: 17px;  }
+	.titulo { font-size: 15px;  }
     </style>
 
 
@@ -138,6 +139,7 @@
 
 		<!-- SLIDER -->
 		<section class="no-padding">
+		<img src="img/aprenda-mais.jpg" height="150">
 			<div>
 				<div style="background-color:#000;" class="p-t-20 p-b-20">
 					<div class="background-overlay-one"></div>
@@ -167,7 +169,7 @@
 					<div class="post-content-details">
 						<h2 class="m-b-10 text-center">Mini-Cursos</h2>
 						<div id="listview" class="list-group">
-							<a href="#" class="list-group-item active"> O QUE VOCÊ QUER APRENDER HOJE? <span class="badge">Grátis</span> </a>
+							<a style="background:#003e6b; border:none;" href="#" class="list-group-item active"> O QUE VOCÊ QUER APRENDER HOJE? <span class="badge">Grátis</span> </a>
 						</div>
 					</div>
 				
@@ -184,9 +186,6 @@
 <footer class="background-dark text-grey" id="footer">
     <div class="footer-content">
         <div class="container">
-            <div class="row text-center">
-                <img alt="" src="images/app/logo-white.png">                
-                </div>
 				<div class="copyright-text text-center"> &copy; APP criado por: <a href="creative.html">CREATIVE NEGÓCIOS</a>.</div>
         </div>
     </div>

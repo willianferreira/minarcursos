@@ -51,9 +51,10 @@
                 var id = field.id;
                 var titulo = field.titulo;
                 var descricao = field.descricao;
+                var categoria = field.categoria;
 
                 $("#listview").append(
-                	"<h2 class='m-b-10'>"+ titulo +"</h2><div class='post-description'><p>"+ descricao +"</p></div>");
+                	"<h2 style='font-size:16px;' class='m-b-10'>"+"<div style='color:#dc0a0a; text-transform:uppercase;'>"+categoria+"</div>"+ titulo +"</h2><div class='post-description'><p style='font-size:15px;'>"+ descricao +"</p></div>");
 
                 $('#preloader').fadeOut(1500);                
             });
@@ -174,7 +175,6 @@
 				<!-- Blog image post-->
 				<div class="post-item">
 					<div class="post-content-details">
-						<h2 class="m-b-10 text-center">Mini-Cursos</h2>
 						<div id="listview" class="list-group">
 							
 						</div>
