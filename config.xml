@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.creative.minarcursos" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Minar Cursos</name>
     <description>
         A Minar Cursos é uma empresa localizada em Londrina/PR onde o foco principal é oferecer cursos, palestras e materiais de qualidade nas áreas de administração, matematica financeira, gestão entre outras. Além disso, no APP você tem artigos nas quais irão expandir o seu nível de conhecimento e ajudar nas suas tomadas de decisões no mercado de trabalho.
