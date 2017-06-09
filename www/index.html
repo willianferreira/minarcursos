@@ -87,7 +87,7 @@
 									<li><a href="index.html">Home</a></li>
 									<li><a href="empresa.html">Sobre a Empresa</a></li>
 									<li><a href="aprenda-mais.html">Mini-Cursos Grátis</a></li>
-									
+									<li><a href="videos.html">Vídeos Motivacionais</a></li>
 									<li class="dropdown"> <a href="#">Cursos <i class="fa fa-angle-down"></i></a>
 										<ul class="dropdown-menu">
 											<li><a href="matematica-financeira.html">MATEMÁTICA FINANCEIRA HP 12C</a></li>
@@ -98,7 +98,7 @@
 											<li><a href="planejamento-financeiro.html">PLANEJAMENTO E CONTROLES FINANCEIROS</a></li>
 										</ul>
 									</li>
-									
+									<li><a href="consultoria.html">Consultoria</a></li>
 									<li><a href="faleconosco.html">Fale Conosco</a></li>
 								</ul>
 							</nav>
@@ -142,7 +142,7 @@
 				</div>
 				<div class="row p-b-0" data-animation="fadeInUp">
 					<div class="col-md-12">
-						<a href="website.html"><img class="img-responsive" src="images/app/site.jpg"></a>
+						<a href="#" onclick="navigator.app.loadUrl('http://google.com')"><img class="img-responsive" src="images/app/site.jpg"></a>
 					</div>
 				</div>
 			</div>
@@ -313,6 +313,10 @@
 	    $(window).load(function(){
 	        $('#preloader').fadeOut(1500);//1500 é a duração do efeito (1.5 seg)
 	    });
+
+	    function abre(){
+	    	navigator.app.loadUrl("http://www.youtube.com", { openExternal:true } );
+	    }	    
 
 	});
 
